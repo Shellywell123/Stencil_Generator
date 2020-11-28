@@ -4,6 +4,7 @@ python3 program that coverts an image file into 3 stencils, by cranking up the c
 
 <p float="middle">
   <img src="test_image.jpg" width="265" title="test title" alt="accessibility text"/>
+  <figcaption>
   <img src="arrow.png" width="265" />
   <img src="combined_stencils.png" width="265" />  
 </p>
