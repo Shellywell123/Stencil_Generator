@@ -7,7 +7,7 @@ python3 program that coverts an image file into 3 stencils, by cranking up the c
 </p>
 
 <p float="middle">
-  <img src="a_stencil_darks.png.png" width="200" />
-  <img src="b_stencil_mids.png.png" width="200" />
-  <img src="c_stencil_lights.png.png" width="200" />
+  <img src="a_stencil_darks.png" width="200" />
+  <img src="b_stencil_mids.png" width="200" />
+  <img src="c_stencil_lights.png" width="200" />
 </p>
