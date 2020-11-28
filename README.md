@@ -11,6 +11,10 @@ python3 program that coverts an image file into 3 stencils, by cranking up the c
   <img src="combined_stencils.png" width="265" />  
 </p>
 
+Input Image            |  Stencil Version
+:-------------------------:|:-------------------------:
+![](https://github.com/Shellywell123/Stencil_Generator/test_image.jpg)  |  ![](https://github.com/Shellywell123/Stencil_Generator/combined_stencils.png)
+
 ## usage
 
 ```py
