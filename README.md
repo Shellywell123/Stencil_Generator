@@ -10,7 +10,7 @@ python3 program that coverts an image file into 3 stencils, by cranking up the c
 
 Input Image            |  Stencil Version
 :-------------------------:|:-------------------------:
-![](https://github.com/Shellywell123/Stencil_Generator/test_image.jpg)  |  ![](https://github.com/Shellywell123/Stencil_Generator/combined_stencils.png)
+![](https://github.com/Shellywell123/Stencil_Generator/blob/main/test_image.jpg)  |  ![](https://github.com/Shellywell123/Stencil_Generator/blob/main/combined_stencils.png)
 
 ## usage
 
