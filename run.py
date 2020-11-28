@@ -6,7 +6,7 @@ print('making stencils from {}'.format(image_name))
 from PIL import Image,ImageEnhance,ImageOps
 img=Image.open(image_name)
 img_contr_obj=ImageEnhance.Contrast(img)
-factor=10000
+factor=5
 e_img=img_contr_obj.enhance(factor)
 e_img = ImageOps.grayscale(e_img)
 e_img.save('combined_stencils.png')
@@ -20,7 +20,7 @@ print(len(colors),'different shades')                  # number of unique colors
 
 # make 3 stencils
 hi_lim = 200
-lo_lim= 20
+lo_lim= 10
 
 black = 0
 grey  = 100
@@ -34,7 +34,7 @@ a_pixelsNew = a_img.load()
 import numpy as np
 for i in range(a_img.size[0]):
     for j in range(a_img.size[1]):
-     #   print(pixelsNew[i,j])
+     #   print(a_pixelsNew[i,j])
         if a_pixelsNew[i,j] <= lo_lim:
             a_pixelsNew[i,j] = black
         else:
