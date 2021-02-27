@@ -16,7 +16,7 @@ make_stencils(image_name="test_image.jpg",contrast_factor=5,hi_lim=200,lo_lim=10
 Output:
 ```bash
 making stencils from test_image.jpg
-contranst config = 5
+contrast config = 5
 53 different shades
 stencil config hi_lim = 200, load = 10, 3 stencil
 ```

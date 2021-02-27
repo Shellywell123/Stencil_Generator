@@ -12,7 +12,7 @@ def make_stencils(image_name,contrast_factor,hi_lim,lo_lim):
     e_img = ImageOps.grayscale(e_img)
     e_img.save('combined_stencils.png')
 
-    print('contranst config = {}'.format(contrast_factor))
+    print('contrast config = {}'.format(contrast_factor))
 
     # check num of cols
     from collections import Counter
